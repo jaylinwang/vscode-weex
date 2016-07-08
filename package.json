@@ -1,0 +1,48 @@
+{
+    "name": "weex",
+    "displayName": "weex",
+    "description": "vscode weex support",
+    "version": "0.2.0",
+    "publisher": "jaylinwang",
+    "icon": "images/weex.png",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "weex",
+                "aliases": [
+                    "weex",
+                    "weex"
+                ],
+                "extensions": [
+                    ".vue",
+                    ".we"
+                ],
+                "configuration": "./weex.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "weex",
+                "scopeName": "text.html.vue",
+                "path": "./syntaxes/weex.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "weex",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "6eea747e-1a39-4672-b0ad-0d830e7b8e33",
+        "publisherId": "4b350eb6-eca5-485a-85ab-3b82eba43aaf",
+        "publisherDisplayName": "JaylinWang"
+    }
+}
