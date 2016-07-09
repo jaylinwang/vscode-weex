@@ -3,18 +3,16 @@
     "displayName": "weex",
     "description": "vscode weex support",
     "keywords": [
-        "weex", "vue"
+        "weex",
+        "vue"
     ],
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "jaylinwang",
     "license": "SEE LICENSE IN LICENSE",
     "icon": "images/weex.png",
     "engines": {
         "vscode": "^1.0.0"
     },
-    // "activationEvents": [
-    //     "onLanguage:weex"
-    // ],
     "categories": [
         "Languages",
         "Snippets"
@@ -28,29 +26,36 @@
         "url": "https://github.com/jaylinwang/vscode-weex"
     },
     "contributes": {
-        "languages": [{
-            "id": "weex",
-            "aliases": [
-                "weex"
-            ],
-            "extensions": [
-                ".vue",
-                ".we"
-            ],
-            "configuration": "./weex.configuration.json"
-        }],
-        "grammars": [{
-            "language": "weex",
-            "scopeName": "text.html.vue",
-            "path": "./syntaxes/weex.tmLanguage"
-        }],
-        "snippets": [{
-            "language": "weex",
-            "path": "./snippets/html.json"
-        }, {
-            "language": "weex",
-            "path": "./snippets/javascript.json"
-        }]
+        "languages": [
+            {
+                "id": "weex",
+                "aliases": [
+                    "weex"
+                ],
+                "extensions": [
+                    ".vue",
+                    ".we"
+                ],
+                "configuration": "./weex.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "weex",
+                "scopeName": "text.html.vue",
+                "path": "./syntaxes/weex.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "weex",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "weex",
+                "path": "./snippets/javascript.json"
+            }
+        ]
     },
     "__metadata": {
         "id": "6eea747e-1a39-4672-b0ad-0d830e7b8e33",
