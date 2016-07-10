@@ -54,6 +54,10 @@
             {
                 "language": "weex",
                 "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "weex",
+                "path": "./snippets/weex.json"
             }
         ]
     },

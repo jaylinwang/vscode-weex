@@ -1,0 +1,107 @@
+{
+    "we-element": {
+        "prefix": "we-element",
+        "body": "<we-element name=\"$1\">$2</we-element>",
+        "description": "weex - define a we-element tag"
+    },
+    "content": {
+        "prefix": "content",
+        "body": "<content>$1</content>",
+        "description": "weex - define a content tag"
+    },
+    "scroller": {
+        "prefix": "scroller",
+        "body": "<scroller>$1</scroller>",
+        "description": "weex - define a scroller tag"
+    },
+    "list": {
+        "prefix": "list",
+        "body": [
+            "<list>",
+            "   <cell>$2</cell>",
+            "</list>"
+        ],
+        "description": "weex - define a list tag"
+    },
+    "cell": {
+        "prefix": "cell",
+        "body": "<cell>$1</cell>",
+        "description": "weex - define a cell tag"
+    },
+    "text": {
+        "prefix": "text",
+        "body": "<text>$1</text>",
+        "description": "weex - define a text tag"
+    },
+    "image": {
+        "prefix": "image",
+        "body": "<image src=\"$1\">$2</image>",
+        "description": "weex - define a image tag"
+    },
+    "input": {
+        "prefix": "input",
+        "body": [
+            "<input", 
+            "   type=\"$1\"",
+            "   autofocus=\"$2\"",
+            "   placeholder=\"$3\"",
+            "   value=\"$4\">",
+            "</input>"
+        ],
+        "description": "weex - define a input tag"
+    },
+    "switch": {
+        "prefix": "switch",
+        "body": "<switch checked=\"$1\">$2</switch>",
+        "description": "weex - define a switch tag"
+    },
+    "slider": {
+        "prefix": "slider",
+        "body": [
+            "<slider auto-play=\"$1\">",
+            "   $2",
+            "   <indicator></indicator>",
+            "</slider>"
+        ],
+        "description": "weex - define a slider tag"
+    },
+    "video": {
+        "prefix": "video",
+        "body": [
+            "<video",
+            "   src=\"$1\"",
+            "   play-status=\"$2\"",
+            "   auto-play=\"$3\">",
+            "</video>"
+        ],
+        "description": "weex - define a video tag"
+    },
+    "a": {
+        "prefix": "a",
+        "body": "<a href=\"$1\">$2</a>",
+        "description": "weex - define a tag"
+    },
+    "web": {
+        "prefix": "web",
+        "body": "<web src=\"$1\">$2</web>",
+        "description": "weex - define web tag"
+    },
+    "wxc-tabbar": {
+        "prefix": "wxc-tabbar",
+        "body": "<wxc-tabbar tab-items=\"$1\">$2</wxc-tabbar>",
+        "description": "weex - define wxc-tabbar tag"
+    },
+    "wxc-navpage": {
+        "prefix": "wxc-navpage",
+        "body": [
+            "<wxc-navpage",
+            "   height=\"$1\"",
+            "   background-color=\"$2\"",
+            "   title=\"$3\"",
+            "   title-color=\"$4\"",
+            "   value=\"$4\">",
+            "</wxc-navpage>"
+        ],
+        "description": "weex - define a wxc-navpage tag"
+    }
+}
